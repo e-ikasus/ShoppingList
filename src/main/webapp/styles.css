@@ -1,0 +1,73 @@
+.image {
+    margin: 2px;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+.submit {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#body, .header, #footer, #errorsArea {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.header h1, .header h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+#body {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#footer, .row, #divItemName {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer div {
+    flex: auto;
+    display: inline-block;
+}
+
+#rubber, #toRight {
+    text-align: end;
+}
+
+.basket, .trash {
+    flex: none;
+    display: inline-block;
+}
+
+.name, #divItemName * {
+    flex: auto;
+    display: inline-block;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#main {
+    width: 400px;
+    margin: auto;
+}
+
+#divListName, #divItemName, #errorsArea {
+    border: 1px solid black;
+    padding: 10px;
+}
